@@ -30,7 +30,7 @@ public class ControllsMechanicScene : MonoBehaviour
         {
             cutCube();
             //remove after recording
-            enableGravity();
+            //enableGravity();
             cutButtonPressed = true;
         }
         else if(!gravityEnabled && cutButtonPressed == true && Input.GetAxis("Jump") < .2)
